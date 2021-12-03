@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: salmon;
+    height:10vh;
+    
+}
+aside{
+    background-color: skyblue;
+    float: left;
+    height: 80vh;
+    width: 20%;
+}
+main{
+    background-color: violet;
+    float: right;
+    height: 80vh;
+    width: 80%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: yellowgreen;
+    height: 10vh;
+    width: 100%;
+}
