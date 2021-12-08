@@ -4,20 +4,21 @@ body{
     margin: 0;
 }
 header{
-    background-color: rgb(156, 228, 11);
+    background-color: rgb(166, 122, 223);
     display: flex;
     justify-content: space-around;
+    height: 10vh;
     padding: 0.5px;
 }
 h1, nav{
     display: inline-block;
 }
 h1,nav a{
-    color: red;
+    color: rgb(48, 16, 16);
 }
 
 h1{
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin: 0;
 }
 nav{
@@ -27,9 +28,62 @@ nav{
     width: 20%;
 }
 nav a{
-    font-size: 0.6rem;
+    font-size: 1rem;
     text-decoration: none;
 }
 nav a:hover{
     background-color: seashell;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+aside,section{
+height: 80vh;
+}
+aside{
+   align-items: center;
+    background-color: rgb(99, 208, 228);
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+aside a{
+    color: #000000;
+    font-size: 1rem;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+
+}
+aside a:hover{
+    background-color: rgb(255, 194, 172);
+}
+section{
+    background-color: rgb(202, 152, 202);
+    width: 90%;
+}
+
+article{
+    flex: 1 1 30%;
+    text-align: center;
+}
+img{
+    height: 100px;
+}
+footer{
+background-color: rgb(96, 164, 252);
+display: flex;
+flex-direction: row;
+height: 10vh;
+width: 100%;
+}
+p,footer a{
+    color: palegoldenrod;
+    font-size: 1rem;
+}
+p{
+    display: inline;
+    margin: 0;
 }
