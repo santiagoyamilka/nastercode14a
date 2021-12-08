@@ -3,4 +3,29 @@ body{
  }
 h1{
     color: navy;
+    justify-content: space-around;
 }
+footer{
+    align-items: center;
+}
+img{
+    height: 160px;
+}
+h1{
+    background-color: rgb(132, 147, 167);
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    }
+    p1{
+        background-color: rgb(132, 147, 167);
+        display: flex;
+        flex-direction: row;
+        height: 4vh;
+        width: 100%;
+    }
+    p1{
+        justify-content: space-around;
+        }
+    
